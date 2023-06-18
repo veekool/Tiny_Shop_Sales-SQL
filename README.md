@@ -285,26 +285,29 @@ SQL interactive playground >> [View on DB Fiddle](https://www.db-fiddle.com/f/5N
 
 
 ### Question 8: What is the median order total?
-<details><summary>Solution (using CTE and WITHIN_GORUP()):</summary>
+<details><summary>Solution (using CTE):</summary>
 
   ```sql
-  WITH order_totals AS (
-    SELECT o.order_id, SUM(p.price * oi.quantity) AS total_order_amount
-    FROM orders o
-    JOIN order_items oi ON  o.order_id = oi.order_id
-    JOIN products p ON oi.product_id = p.product_id
-    GROUP BY o.order_id
-  )
-  SELECT
-    percentile_disc(0.5) WITHIN GROUP (ORDER BY total_order_amount) AS total_median_order
-  FROM order_totals;
+    WITH order_totals AS (
+      SELECT o.order_id, SUM(p.price * oi.quantity) AS total_order_amount
+      FROM orders o
+      JOIN order_items oi ON  o.order_id = oi.order_id
+      JOIN products p ON oi.product_id = p.product_id
+      GROUP BY o.order_id
+    )
+    SELECT ROUND(AVG(total_order_amount),2) AS total_median_order
+    FROM (
+      SELECT total_order_amount, ROW_NUMBER() OVER (ORDER BY total_order_amount) AS row_num, COUNT(*) OVER () AS total_rows
+      FROM order_totals
+    ) t
+    WHERE row_num IN ((total_rows + 1) / 2, (total_rows + 2) / 2);
   ```
 
 </details>
 
 <details><summary>Output:</summary>
 
-  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/a3502819-88a7-404d-90ef-67ec68d4bd7a)
+  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/7ee7677d-14e4-4ac5-b54a-74a41ac2f0dc)
 
 </details>
 
