@@ -2,7 +2,7 @@
 
 View original link [here](https://d-i-motion.com/lessons/customer-orders-analysis/) by Kedeisha Bryan.
 
-![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/d48d0b83-1864-491c-95d5-7e279f9b3d9e)
+![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/2d63638f-867a-45c2-a754-3f1685e6f442)
 
 <details><summary>Creating databases and Tables:</summary>
 
@@ -135,7 +135,7 @@ SQL interactive playground >> [View on DB Fiddle](https://www.db-fiddle.com/f/5N
 
 <details><summary>Output:</summary>
 
-  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/fa4b2eda-6ca8-430e-b5e5-ae762ff7875a)
+  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/cb0a49db-ed9f-41f5-bbd1-d743e5be9664)
 
 </details>
 
@@ -157,7 +157,7 @@ SQL interactive playground >> [View on DB Fiddle](https://www.db-fiddle.com/f/5N
 
 <details><summary>Output:</summary>
   
-  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/7ae175f7-5a15-4e62-8994-5bdfd5a4925e)
+  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/d07d4a6e-f3f6-490c-a2dc-c280a818ef0a)
 
 </details>
 
@@ -191,7 +191,7 @@ SQL interactive playground >> [View on DB Fiddle](https://www.db-fiddle.com/f/5N
 
 <details><summary>Output:</summary>
   
-  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/d5fbe469-4984-4b9a-9562-c46702b69585)
+  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/72cf0e13-3d8e-4c18-af7d-d4179a84c3df)
 
 </details>
 
@@ -213,11 +213,9 @@ SQL interactive playground >> [View on DB Fiddle](https://www.db-fiddle.com/f/5N
 
 <details><summary>Output:</summary>
 
-  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/cddb6582-4ed9-4757-81cc-058e8bad6a5b)
-  
+  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/1439c038-3b60-4fa6-86b2-f6968a1419a3)
+
 </details>
-
-
 
 
 ### Question 5: Find the first order (by date) for each customer.
@@ -235,7 +233,7 @@ SQL interactive playground >> [View on DB Fiddle](https://www.db-fiddle.com/f/5N
 
 <details><summary>Output:</summary>
 
-  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/69a17895-f2d6-4637-95e8-942380f82c1b)
+  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/bbe083dd-a830-40b0-84a5-ce8c8696ab19)
 
 </details>
 
@@ -256,7 +254,7 @@ SQL interactive playground >> [View on DB Fiddle](https://www.db-fiddle.com/f/5N
 
 <details><summary>Output:</summary>
 
-  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/ff417736-43e0-423e-b1e0-2837f3bf85b6)
+  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/230e5808-ccce-4d19-ae1a-f86d4354ad9c)
 
 </details>
 
@@ -279,7 +277,7 @@ SQL interactive playground >> [View on DB Fiddle](https://www.db-fiddle.com/f/5N
 
 <details><summary>Output:</summary>
 
-  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/1d4e870c-6f84-4670-b9ba-a01fdc5f968e)
+  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/dd5895b5-ac71-41b2-aba5-ce226572c0eb)
 
 </details>
 
@@ -307,7 +305,7 @@ SQL interactive playground >> [View on DB Fiddle](https://www.db-fiddle.com/f/5N
 
 <details><summary>Output:</summary>
 
-  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/7ee7677d-14e4-4ac5-b54a-74a41ac2f0dc)
+  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/2056ddac-06a0-41ad-8d8a-ee2d5c47bfeb)
 
 </details>
 
@@ -338,7 +336,7 @@ SQL interactive playground >> [View on DB Fiddle](https://www.db-fiddle.com/f/5N
 
 <details><summary>Output:</summary>
 
-  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/1ab186d2-6607-43f3-a3d8-275999b7301c)
+  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/d3f785c8-f4d3-4f03-8a92-8db216f3fab9)
 
 </details>
 
@@ -379,6 +377,6 @@ SQL interactive playground >> [View on DB Fiddle](https://www.db-fiddle.com/f/5N
 
 <details><summary>Output:</summary>
 
-  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/c20c8004-74a3-4fb2-b786-cde0dd4d70fb)
+  ![image](https://github.com/veekool/Tiny_Shop_Sales-SQL/assets/114795923/69297bef-861f-432b-a5aa-ea1c9c08a64f)
 
 </details>
